@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>atomicubes</title>
+
+        <meta name="description" content="Objects created from cubes which appear when they are approached.">
+        <meta name="author" content="Tyler Wolf Leonhardt">
+
+        <link rel="stylesheet" type="text/css" href="../index/tyleo.css">
+    </head>
+
+    <body>
+        <div class="centered">
+            <div class="title">atomicubes</div>
+            <div class="subtitle">Objects created from cubes which appear when they are approached.</div>
+            <br/>
+            <div class="paragraph">
+                Entities in a game world are typically created with a solid mesh that is always visible. One example of this is a bridge which consists of a singular hexahedral mesh stretched over a chasm along one of its axes. With a texture applied to the mesh, it appears as though it is a solid object. In particular, when treating the mesh as a rigid body, other rigid bodies will collide with the mesh as one would expect an object to collide with a bridge in the real world. This is represented in Figure 1, below. Without the texture, objects would still collide with the bridge but it would be difficult for a user to determine where the edges of the bridge begin and end. By creating this untextured bridge mesh and then filling it with cubes, it could be made to appear as though any object coming into collision with the mesh were actually being held up by the cubes. This is represented in Figure 2, below.
+            </div>
+            <br/>
+            <table align="center">
+                <tr>
+                    <td align="center">
+                        <img src="Figure 1.png" width="334em" height="132em">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <div class="normalText">
+                            <b>Figure 1</b>: Solid bridge with moving object
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <table align="center">
+                <tr>
+                    <td align="center">
+                        <img src="Figure 2.png" width="331em" height="174em">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <div class="normalText">
+                            <b>Figure 2</b>: Lattice bridge with moving object
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <div class="paragraph">
+                After creating the cube-lattice bridge described above, scripts can be applied to each individual cube to create certain effects as they are approached. Some examples of effects which may be visually appealing include having the cubes fly together, having them fade into existence or coloring them. These effects should be simple to implement and without significant computational expense. We will explore the effects of cubes flying together to make a platform appear upon which other objects may rest.
+            </div>
+        </div>
+    </body>
+</html>

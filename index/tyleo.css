@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial;
+}
+.title {
+    font-size: 2.5em;
+}
+.subtitle {
+    font-size: 1em;
+    color: rgb(90, 90, 90);
+}
+.heading1 {
+    font-size: 1.5em;
+    color: rgb(46, 116, 181);
+}
+.heading2 {
+    font-size: 1.3em;
+    color: rgb(46, 116, 181);
+}
+.heading3 {
+    font-size: 1.1em;
+    color: rgb(31, 77, 120);
+}
+.paragraph {
+    text-indent: 3em;
+    font-size: 1em;
+}
+.normalText {
+    font-size: 1em;
+}
+.centered {
+    width: 50em;
+    margin: 0 auto;
+}
