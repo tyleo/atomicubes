@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Tyleo\Accumulator.cs" />
     <Compile Include="Assets\Scripts\Tyleo\AccumulatorState.cs" />
+    <Compile Include="Assets\Scripts\Tyleo\CameraSwitcher.cs" />
     <Compile Include="Assets\Scripts\Tyleo\LatticeGenerator.cs" />
     <Compile Include="Assets\Scripts\Tyleo\ParametricBackForthMovement.cs" />
     <Compile Include="Assets\Scripts\Tyleo\ParametricEquation3d.cs" />
