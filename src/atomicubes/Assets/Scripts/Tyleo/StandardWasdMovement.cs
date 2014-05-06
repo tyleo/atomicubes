@@ -2,11 +2,20 @@
 
 namespace Tyleo
 {
+    /// <summary>
+    /// Allows an entity to be moved using the WSAD keys.
+    /// </summary>
     public sealed class StandardWasdMovement :
         MonoBehaviour
     {
+        /// <summary>
+        /// The speed with which to move the entity.
+        /// </summary>
         [SerializeField]
         private float _metersPerSecond = +1.0f;
+        /// <summary>
+        /// The speed with which to turn the entity.
+        /// </summary>
         [SerializeField]
         private float _degreesPerSecond = +45.0f;
 

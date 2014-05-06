@@ -2,6 +2,10 @@
 
 namespace Tyleo
 {
+    /// <summary>
+    /// Causes a ParametricBackForthMovement to begin on a TriggerEnter and to reverse on a
+    /// TriggerExit.
+    /// </summary>
     public sealed class ParametricMoveOtherOnCollision :
         MonoBehaviour
     {

@@ -2,27 +2,60 @@
 
 namespace Tyleo
 {
+    /// <summary>
+    /// Generates a lattice of GameObjects at a specified rate within specified bounds.
+    /// </summary>
     public sealed class LatticeGenerator :
         MonoBehaviour
     {
+        /// <summary>
+        /// The GameObject to create a lattice of.
+        /// </summary>
         [SerializeField]
         private GameObject _pointObject;
+        /// <summary>
+        /// The starting position of the GameObjects along the X-axis.
+        /// </summary>
         [SerializeField]
         private float _xMin = -1.0f;
+        /// <summary>
+        /// The ending position of the GameObjects along the X-axis.
+        /// </summary>
         [SerializeField]
         private float _xMax = +1.0f;
+        /// <summary>
+        /// The distance between GameObjects along the X-axis.
+        /// </summary>
         [SerializeField]
         private float _xStep = +1.0f;
+        /// <summary>
+        /// The starting position of the GameObjects along the Y-axis.
+        /// </summary>
         [SerializeField]
         private float _yMin = -1.0f;
+        /// <summary>
+        /// The ending position of the GameObjects along the Y-axis.
+        /// </summary>
         [SerializeField]
         private float _yMax = +1.0f;
+        /// <summary>
+        /// The distance between GameObjects along the Y-axis.
+        /// </summary>
         [SerializeField]
         private float _yStep = +1.0f;
+        /// <summary>
+        /// The starting position of the GameObjects along the Z-axis.
+        /// </summary>
         [SerializeField]
         private float _zMin = -1.0f;
+        /// <summary>
+        /// The ending position of the GameObjects along the Z-axis.
+        /// </summary>
         [SerializeField]
         private float _zMax = +1.0f;
+        /// <summary>
+        /// The distance between GameObjects along the Z-axis.
+        /// </summary>
         [SerializeField]
         private float _zStep = +1.0f;
 
